@@ -1,0 +1,139 @@
+body{
+    border-style: solid;
+    border-width: 30px;
+    border-color: blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+     min-height: 100vh;
+}
+
+
+#header, #main, #footer{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#logo_top{
+    float:left;
+}
+#controllers{
+    float:right;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#main{
+    clear: both;
+    height: auto;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGUlEQVQYV2NkYGD4z8DAwMiABFA4MHEKBQFmoAEGlW1mUAAAAABJRU5ErkJggg==) repeat;
+    margin-bottom: 100px;
+}
+#main_head{
+    border-style: solid;
+    margin-bottom: 40px;
+
+}
+
+#noticias{
+    float: left;
+    margin: 0;
+}
+
+#pagination{
+    float:right;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+#articles{
+    border-style: solid;
+    border-color: rgb(180,180,180);
+    border-width: 1px;
+}
+
+#article_1, #article_2, #article_3{
+    border-style: solid;
+    border-color: rgb(180,180,180);
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+    margin-top: 5px;
+    height: 180px;
+    overflow: auto;
+    padding: 10px;
+
+}
+
+#article_img{
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 180px;
+}
+
+
+#article_1_block, #article_2_block, #article_3_block{
+    margin-left: 40%;
+    float:right;
+}
+
+#title_date_block{
+    overflow: auto;
+}
+#title_1, #title_2, #title_3{
+    float: left;
+}
+#date_1{
+    float:right;
+}
+#learn_more{
+    float: right;
+}
+
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    width:inherit;
+    height: 2.5rem;
+}
+
+#p_footer_contacts, #email{
+    font-size: 10px;
+
+}
+
+#logo_bottom{
+    float:left;
+}
+
+#footer_contacts{
+ float: right;
+ margin-top: 40px;
+}
+
+#p_footer_contacts{
+    float: left;
+}
+#email{
+    float: right;
+    margin: 10px;
+}
